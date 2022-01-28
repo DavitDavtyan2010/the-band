@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+html {
+    font-size: 10px;
+}
+
+nav {
+   background-color: #000;
+   position: fixed; 
+   top: 0;
+   display: flex;
+   width: 100%;
+}
+
+nav a , nav button {
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1.5rem;
+}
+
+nav a:hover , nav button:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.show a {
+    color: #000;
+}
+
+nav button {
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+    height: 46.5px;
+}
+
+.show {
+    position: absolute;
+    background-color: #fff;
+    display: none;
+    width: 160px;
+}
+
+.drop_down:hover .show{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.icon {
+    padding: 12px 24px;
+    margin-left: auto;
+}
+
+header {
+    width: 100%;
+    height: 650px;
+    background-image: url(https://www.w3schools.com/w3images/la.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header p:nth-child(1) {
+    color: #fff;
+    font-size: 2.4rem;
+    margin: 10px 0;
+}
+
+header p:nth-child(2) {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+section , footer {
+    width: 53%;
+    margin: 0 auto;
+    padding: 64px 16px;
+}
+
+h1,h2,h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+
+h2 {
+    color: #fff;
+}
+
+.opacity2 {
+    color: #ccc;
+    font-style: italic; 
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.opacity {
+    font-style: italic; 
+    text-align: center;
+    font-size: 1.5rem;
+    opacity: 0.6;
+    margin: 15px 0;
+}
+
+.text {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.images p {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.tour {
+    background-color: #000;
+}
+
+.backraond {
+    width: 100%;
+    background-color: #000;
+}
+
+.date div {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #cccc;
+    padding: 8px 16px;
+    display: flex;
+}
+
+.date div span {
+    color: #757575;
+    font-size: 1.5rem;
+}
+
+#red {
+    margin-left: 25px;
+    background-color: #f42;
+    color: #fff;
+}
+
+#red2 {
+    margin-left: 25px;
+    background-color: #f42;
+    color: #fff;
+}
+
+#black {
+    color: #fff;
+    background-color: #000;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+}
+
+.tickets {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.place {
+    background-color: #fff;
+    width: 245.33px;
+    font-size: 1.5rem;
+    padding: 0.15px 16px;
+}
+
+.bold {
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.grey {
+    opacity: 0.6;
+    margin: 15px 0;
+}
+
+.normal_text {
+    margin: 15px 0;
+}
+
+.place button {
+    margin: 0 0 16px;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.place button:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 0.6;
+}
+
+.adress {
+    display: flex;
+    font-size: 1.8rem;
+}
+
+.adress div {
+    display: flex;
+    flex-direction: column;
+}
+
+.adress div img:nth-child(3) {
+    padding-top: 6px;
+}
+
+input {
+    padding: 8px;
+    margin: 0 8px;
+    border: 1px solid #ccc;
+}
+
+.mes {
+    margin-top: 10px;
+    width: 380px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+form button {
+    margin: 16px 0;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    position: absolute;
+    right: 381px;
+}
+
+.map {
+    filter: grayscale(50%);
+}
+
+.bottom {
+    margin-bottom: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer img:hover {
+    opacity: 0.6;
+}
+
+footer p {
+    color: #ccc;
+}
+
+footer a {
+    font-style: underline;
+    color: #ccc;
+}
